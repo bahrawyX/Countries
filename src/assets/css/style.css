@@ -1,0 +1,13 @@
+:root {
+    --primary: hsl(0, 0%, 100%);
+    --secondary: hsl(0, 0%, 98%);
+    --primary-text: hsl(200, 15%, 8%);
+}
+
+@style base;
+@style components;
+@style utilities;
+
+.min-w-200 {
+    min-width: 200px;
+}

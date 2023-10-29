@@ -1,0 +1,14 @@
+:root {
+    --primary: hsl(0, 0%, 100%);
+    --secondary: hsl(0, 0%, 98%);
+    --primary-text: hsl(200, 15%, 8%);
+}
+
+@style base;
+@style components;
+@style utilities;
+
+.min-w-200 {
+    min-width: 200px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLDJCQUEyQjtJQUMzQiw0QkFBNEI7SUFDNUIsaUNBQWlDO0FBQ3JDOztBQUVBLFdBQVc7QUFDWCxpQkFBaUI7QUFDakIsZ0JBQWdCOztBQUVoQjtJQUNJLGdCQUFnQjtBQUNwQiIsImZpbGUiOiJzdHlsZXMuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOnJvb3Qge1xuICAgIC0tcHJpbWFyeTogaHNsKDAsIDAlLCAxMDAlKTtcbiAgICAtLXNlY29uZGFyeTogaHNsKDAsIDAlLCA5OCUpO1xuICAgIC0tcHJpbWFyeS10ZXh0OiBoc2woMjAwLCAxNSUsIDglKTtcbn1cblxuQHN0eWxlIGJhc2U7XG5Ac3R5bGUgY29tcG9uZW50cztcbkBzdHlsZSB1dGlsaXRpZXM7XG5cbi5taW4tdy0yMDAge1xuICAgIG1pbi13aWR0aDogMjAwcHg7XG59Il19 */

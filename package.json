@@ -1,0 +1,39 @@
+{
+  "name": "frontend-mentor-rest-countries-api",
+  "version": "1.0.0",
+  "private": false,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^7.1.1",
+    "stylecss": "^1.6.2"
+  },
+  "scripts": {
+    "start": "npm run watch:css && react-scripts start",
+    "build": "npm run build:css && react-scripts build",
+    "build:css": "postcss src/assets/css/style.css -o src/assets/css/styles.css",
+    "watch:css": "postcss src/assets/css/style.css -o src/assets/css/styles.css"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
